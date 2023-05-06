@@ -5,7 +5,7 @@ Esta aplicación muestra diferentes recetas de platos conocidos en el mundo. Con
  - **Filtra** los resultados por nombre e ingredientes.
  - **Detalla** las recetas con descripción, ingredientes y preparación.
  - **Amplia** la fotografía desde el detalle de la receta.
- - **Mapa** de ubicación de origien de la receta con marcador.
+ - **Ubica** en un mapa el origen geográfico aproximado de la receta y lo señala con un marcador.
 
 ## Requerimientos
 - Xcode 14 
