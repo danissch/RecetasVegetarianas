@@ -4,7 +4,7 @@ Esta aplicación muestra diferentes recetas de platos conocidos en el mundo. Con
 ## Funcionalidades principales
  - **Filtra** los resultados por nombre e ingredientes. 
  - **Detalla** las recetas,  
- - **Mapa** de ubicación de origien de la receta.
+ - **Mapa** de ubicación de origien de la receta con marcador.
 
 ## Requerimientos
 - Xcode 14 
