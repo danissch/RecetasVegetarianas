@@ -30,8 +30,8 @@ Se utilizó la combinación y adaptación de patrones de diseño conocidos como:
 - Cadena de responsabilidades
 - Factory
 
-## Otras tecnologías y características
-Aparte de los mocks para las pruebas en la aplicación se utilizó [mockable.io](https://www.mockable.io/) para disponibilizar los datos via REST.
+## Otras características
+- Aparte de los mocks para las pruebas en la aplicación se utilizó [mockable.io](https://www.mockable.io/) para disponibilizar los datos via REST.
 - Fácil recarga deslizando hacia abajo en la vista principal.
 - Compatible en dark mode
 - Genera un mensaje cuando no hay conexión a internet durante las peticiones de red.
