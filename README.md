@@ -1,4 +1,4 @@
-# RecetasVegetarianas
+# Recetas
 
 Esta aplicación muestra diferentes recetas de platos conocidos en el mundo. Conectándose a un servidor remoto REST puedes  
 
