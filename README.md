@@ -21,7 +21,7 @@ Se utilizó **MVVM** y se implementaron pruebas unitarias mayormente en los View
 A continuación se nombran las **extensiones de terceros** que se utilizan por medio de cocoapods. Para utilizar este repositorio debes instalar Cocoapods. [Haz clic aquí para instalar Cocoapods](https://cocoapods.org/#install). 
 
 - Alamofire: Conectándose a un servidor remoto REST por medio Alamofire obtenemos las recetas. Los datos son manejados en una capa que instancia Alamofire que es la clase **NetworkCall**. Así las peticiones son realizadas hacia el backend y viceversa.
-- SDWebImage: Útil para realizar peticiones asíncronas y obtener imágenes desde urls remotas, además cuenta con otras utilizades en la utilería con imágenes.
+- SDWebImage: Útil para realizar peticiones asíncronas y obtener imágenes desde urls remotas, además cuenta con otras características en la utilería con imágenes.
 - NVActivityIndicatorView: Utilizado para hacer configurar un agradable número de animaciones de indicadores de carga. Integrado en la aplicación fue utilizado para indicar durante las peticiones o momentos de carga de la aplicación.
 
 ## Patrones de diseño
