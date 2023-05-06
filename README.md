@@ -12,7 +12,7 @@ Esta aplicación muestra diferentes recetas de platos conocidos en el mundo. A n
 - iOS 15+
 
 ## Arquitectura
-Se utilizó **MVVM** y se implementaron pruebas unitarias mayormente en los ViewModels alcanzando un +80% de covertura.
+Se utilizó **MVVM** y se implementaron pruebas unitarias mayormente en los ViewModels alcanzando +80% de covertura.
 
 
 ## Extensiones de terceros
