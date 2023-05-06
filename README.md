@@ -5,3 +5,7 @@ Esta aplicación muestra diferentes recetas de platos conocidos en el mundo. Con
  - **Filtrar** resultados por nombre e ingredientes. 
  - **Detalla** las recetas con descripción, instrucciones y preparación,  
  - **Mapa** de ubicación de origien de la receta.
+
+## Extensiones de terceros
+
+A continuación se nombran las **extensiones de terceros** que se utilizan por medio de cocoapods. Para utilizar este repositorio debes instalar Cocoapods. [Haz clic aquí para instalar Cocoapods](https://cocoapods.org/#install). 
