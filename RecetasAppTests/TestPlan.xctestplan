@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "EC5F5B6D-3FDA-4EF7-857D-258FE61317FE",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:RecetasApp.xcodeproj",
+        "identifier" : "839AF0B029FD6A1C00AE86D7",
+        "name" : "RecetasAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}

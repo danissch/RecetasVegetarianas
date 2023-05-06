@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContentTableViewCell" rowHeight="299" id="sGc-1Y-I57" customClass="ContentTableViewCell" customModule="RecetasApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="299"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sGc-1Y-I57" id="ps4-IU-80V">
+                <rect key="frame" x="0.0" y="0.0" width="345" height="299"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zOf-FA-HwH">
+                        <rect key="frame" x="0.0" y="0.0" width="345" height="299"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="iss-NB-4ws">
+                                <rect key="frame" x="0.0" y="0.0" width="345" height="299"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sgE-Fv-6pb">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="54"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pOz-Xl-nLc">
+                                                <rect key="frame" x="10" y="0.0" width="325" height="54"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="pOz-Xl-nLc" firstAttribute="top" secondItem="sgE-Fv-6pb" secondAttribute="top" id="5P4-xq-YvX"/>
+                                            <constraint firstAttribute="bottom" secondItem="pOz-Xl-nLc" secondAttribute="bottom" id="HjB-wY-jqd"/>
+                                            <constraint firstAttribute="trailing" secondItem="pOz-Xl-nLc" secondAttribute="trailing" constant="10" id="Qef-cf-9mh"/>
+                                            <constraint firstItem="pOz-Xl-nLc" firstAttribute="leading" secondItem="sgE-Fv-6pb" secondAttribute="leading" constant="10" id="tGP-ux-tgS"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IcD-4e-ta3">
+                                        <rect key="frame" x="0.0" y="54" width="345" height="245"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Arr-b7-1Vp">
+                                                <rect key="frame" x="10" y="0.0" width="325" height="235"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Label">
+                                                        <attributes>
+                                                            <font key="NSFont" metaFont="system" size="15"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Arr-b7-1Vp" secondAttribute="trailing" constant="10" id="8c7-R6-Ud0"/>
+                                            <constraint firstItem="Arr-b7-1Vp" firstAttribute="top" secondItem="IcD-4e-ta3" secondAttribute="top" id="RMU-cP-p0e"/>
+                                            <constraint firstItem="Arr-b7-1Vp" firstAttribute="leading" secondItem="IcD-4e-ta3" secondAttribute="leading" constant="10" id="aNN-5E-pXz"/>
+                                            <constraint firstAttribute="bottom" secondItem="Arr-b7-1Vp" secondAttribute="bottom" constant="10" id="h8M-kt-jVM"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="sgE-Fv-6pb" secondAttribute="trailing" id="59M-no-c19"/>
+                                    <constraint firstAttribute="trailing" secondItem="IcD-4e-ta3" secondAttribute="trailing" id="C0k-Pc-A7e"/>
+                                    <constraint firstItem="sgE-Fv-6pb" firstAttribute="leading" secondItem="iss-NB-4ws" secondAttribute="leading" id="R3U-Qb-i5X"/>
+                                    <constraint firstItem="IcD-4e-ta3" firstAttribute="top" secondItem="sgE-Fv-6pb" secondAttribute="bottom" id="gtE-zY-LMj"/>
+                                    <constraint firstItem="sgE-Fv-6pb" firstAttribute="top" secondItem="iss-NB-4ws" secondAttribute="top" id="nJd-98-8u5"/>
+                                    <constraint firstAttribute="bottom" secondItem="IcD-4e-ta3" secondAttribute="bottom" id="nKA-i5-Uge"/>
+                                    <constraint firstItem="IcD-4e-ta3" firstAttribute="leading" secondItem="iss-NB-4ws" secondAttribute="leading" id="uhJ-vw-Bu3"/>
+                                    <constraint firstItem="IcD-4e-ta3" firstAttribute="top" secondItem="iss-NB-4ws" secondAttribute="top" constant="54" id="w8x-T6-uyN"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="iss-NB-4ws" firstAttribute="top" secondItem="zOf-FA-HwH" secondAttribute="top" id="6CU-Gi-t2u"/>
+                            <constraint firstAttribute="bottom" secondItem="iss-NB-4ws" secondAttribute="bottom" id="LHv-8g-nYf"/>
+                            <constraint firstItem="iss-NB-4ws" firstAttribute="leading" secondItem="zOf-FA-HwH" secondAttribute="leading" id="XVD-db-uQW"/>
+                            <constraint firstAttribute="trailing" secondItem="iss-NB-4ws" secondAttribute="trailing" id="fDH-vK-nKk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zOf-FA-HwH" firstAttribute="leading" secondItem="ps4-IU-80V" secondAttribute="leading" id="5Jo-DK-d0O"/>
+                    <constraint firstItem="zOf-FA-HwH" firstAttribute="top" secondItem="ps4-IU-80V" secondAttribute="top" id="5bE-fm-aUU"/>
+                    <constraint firstAttribute="trailing" secondItem="zOf-FA-HwH" secondAttribute="trailing" id="BNR-ub-3ez"/>
+                    <constraint firstAttribute="bottom" secondItem="zOf-FA-HwH" secondAttribute="bottom" id="hgl-G2-bh6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="item_text" destination="Arr-b7-1Vp" id="cPE-et-MGf"/>
+                <outlet property="item_title" destination="pOz-Xl-nLc" id="bVw-y9-hmF"/>
+            </connections>
+            <point key="canvasLocation" x="-16.030534351145036" y="-72.887323943661968"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

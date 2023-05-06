@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MediaTableViewCell" rowHeight="236" id="HAC-y1-WTK" customClass="MediaTableViewCell" customModule="RecetasApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="337" height="236"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HAC-y1-WTK" id="ETC-Ol-voR">
+                <rect key="frame" x="0.0" y="0.0" width="337" height="236"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FSp-HI-Lft">
+                        <rect key="frame" x="0.0" y="0.0" width="337" height="236"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rOF-OX-kbK">
+                                <rect key="frame" x="8" y="14" width="321" height="209"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="209" id="p28-CP-p5b"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rOF-OX-kbK" firstAttribute="top" secondItem="FSp-HI-Lft" secondAttribute="top" constant="14" id="GYC-q2-tNS"/>
+                            <constraint firstAttribute="bottom" secondItem="rOF-OX-kbK" secondAttribute="bottom" constant="13" id="oCC-Rl-bbb"/>
+                            <constraint firstItem="rOF-OX-kbK" firstAttribute="centerX" secondItem="FSp-HI-Lft" secondAttribute="centerX" id="pzy-TL-JZl"/>
+                            <constraint firstItem="rOF-OX-kbK" firstAttribute="leading" secondItem="FSp-HI-Lft" secondAttribute="leadingMargin" id="uJC-8k-Iyz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FSp-HI-Lft" firstAttribute="leading" secondItem="ETC-Ol-voR" secondAttribute="leading" id="aqJ-Mu-2cv"/>
+                    <constraint firstItem="FSp-HI-Lft" firstAttribute="top" secondItem="ETC-Ol-voR" secondAttribute="top" id="eWI-8i-EWq"/>
+                    <constraint firstAttribute="bottom" secondItem="FSp-HI-Lft" secondAttribute="bottom" id="g1W-5x-WGw"/>
+                    <constraint firstAttribute="trailing" secondItem="FSp-HI-Lft" secondAttribute="trailing" id="oP8-9f-rmW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detailedImage" destination="rOF-OX-kbK" id="cqF-hF-BJY"/>
+            </connections>
+            <point key="canvasLocation" x="80.152671755725194" y="-41.549295774647888"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
