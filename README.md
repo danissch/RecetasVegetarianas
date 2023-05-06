@@ -30,3 +30,5 @@ Se utilizó la combinación y adaptación de patrones de diseño conocidos como:
 - Cadena de responsabilidades
 - Factory
 
+## Otras tecnologías
+Aparte de los mocks para las pruebas en la aplicación se utilizó [mockable.io](https://www.mockable.io/) para disponibilizar los datos via REST.
