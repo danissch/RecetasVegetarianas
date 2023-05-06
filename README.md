@@ -1,6 +1,7 @@
 # Recetas
-Esta aplicación muestra diferentes recetas de platos conocidos en el mundo. Conectándose a un servidor remoto REST, por medio de la aplicación puedes realizar lo básico para conocer mucho acerca de una receta.
+Esta aplicación muestra diferentes recetas de platos conocidos en el mundo. Conectándose a un servidor remoto REST la aplicación puede ofrecerte lo básico para conocer mucho acerca recetas universales.
 
+##Funcionalidades principales
  - **Filtra** los resultados por nombre e ingredientes. 
  - **Detalla** las recetas,  
  - **Mapa** de ubicación de origien de la receta.
