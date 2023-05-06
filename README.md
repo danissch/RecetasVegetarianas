@@ -24,5 +24,9 @@ A continuación se nombran las **extensiones de terceros** que se utilizan por m
 - SDWebImage: Útil para realizar peticiones asíncronas y obtener imágenes desde urls remotas, además cuenta con otras utilizades en la utilería con imágenes.
 - NVActivityIndicatorView: Utilizado para hacer configurar un agradable número de animaciones de indicadores de carga. Integrado en la aplicación fue utilizado para indicar durante las peticiones o momentos de carga de la aplicación.
 
-
+## Patrones de diseño
+Se utilizó la combinación y adaptación de patrones de diseño conocidos como:
+- Singleton
+- Cadena de responsabilidades
+- Factory
 
