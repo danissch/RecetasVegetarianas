@@ -58,7 +58,7 @@ class ActivityIndicatorHandler {
     }
 
     func stopActivityIndicator(){
-        DispatchQueue.main.asyncAfter(deadline:DispatchTime.now() + 2.5){
+        DispatchQueue.main.asyncAfter(deadline:DispatchTime.now() + 1.5){
             UIView.animate(withDuration: 0.3, delay: 0, options: .transitionCrossDissolve, animations: {
                     self.coverView?.alpha = 0
             }) { (_) in

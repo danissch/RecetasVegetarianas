@@ -65,7 +65,7 @@ class RefreshControlHandler {
             closeRefresh()
         })
         self.nvActivityIndicator?.startAnimating()
-        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(5)){
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(1)){
             self.actionRefresh?()
         }
         
